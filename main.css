@@ -1,0 +1,66 @@
+body {
+	background: #282f3a;
+	max-width: 110;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+.heading {
+	background: #1a1e26;
+	margin-left: -600px;
+	margin-right: -600px;
+}
+
+h1, h3 {
+	font-family: Lato, sans-serif;
+	font-weight: 300;
+	color: White;
+	text-align: center;
+}
+
+ul {
+	font-family: Lato, sans-serif;
+	color: white;
+	list-style-type: none;
+	display: block;
+	margin: 0;
+	padding: 0px;
+	
+}
+
+li {
+	display:inline-block;
+	padding: 10px;
+	border: 1px solid #282f3a;
+	background: #1a1e26;
+
+}
+
+/*
+All "a" tags are for the navigation bar.
+
+Hover changes the color of the link when you hover your mouse over the top
+*/
+
+a {
+	color: White;
+}
+
+a:hover {
+	color: Gray;
+}
+
+/*
+.post is the class for every post in the webpages
+*/
+.post {
+	background: #d0d9e8;
+	border-radius: 5px;
+	margin-left: 33%;
+	margin-right: 33%;
+}
+
+p {
+	color: black;
+	text-align: center;
+}
